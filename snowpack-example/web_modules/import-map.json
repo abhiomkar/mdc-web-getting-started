@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@material/textfield": "./@material/textfield.js"
+  }
+}
