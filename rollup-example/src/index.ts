@@ -1,4 +1,4 @@
-import {MDCTextField} from '@material/textfield';
+import {MDCRipple} from '@material/ripple';
 import './index.scss';
 
-MDCTextField.attachTo(document.querySelector('.mdc-text-field') as HTMLElement);
+MDCRipple.attachTo(document.querySelector<HTMLElement>('.mdc-button'));

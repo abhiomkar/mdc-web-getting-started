@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@material/textfield": "^5.0.0"
+    "material-components-web": "^6.0.0"
   },
   "devDependencies": {
     "sass": "^1.25.0",
@@ -19,7 +19,8 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rollup -c -w",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",

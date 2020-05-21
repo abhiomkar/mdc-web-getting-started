@@ -10,7 +10,7 @@ import path from 'path';
 const typescriptConfig = {
   input: './src/index.ts',
   output: {
-    file: 'dist/index.js',
+    file: './public/dist/index.js',
     format: 'esm',
   },
   plugins: [
@@ -39,7 +39,7 @@ const typescriptConfig = {
       extract: true,
       extensions: ['.css', '.scss'],
     }),
-    serve(),
+    process.env.ROLLUP_WATCH && serve('public'),
   ],
 };
 
